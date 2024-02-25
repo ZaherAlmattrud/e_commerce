@@ -16,12 +16,17 @@ import { createPinia } from "pinia";
 
 // emmiter
 
-import mitt from 'mitt';
-const emmiter = mitt();
+import mitt from "mitt";
+const emitter = mitt();
 
 const vuetify = createVuetify({
   components,
   directives,
 });
 
-createApp(App).use(vuetify).provide(emmiter).use(createPinia()).use(router).mount("#app");
+createApp(App)
+  .use(vuetify)
+  .provide("emitter", emitter)
+  .use(createPinia())
+  .use(router)
+  .mount("#app");
