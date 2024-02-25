@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <h1>Home Page</h1>
-    <v-icon>mdi-home</v-icon>
   </div>
 </template>
 

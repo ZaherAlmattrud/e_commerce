@@ -1,6 +1,7 @@
 <template>
-  <router-view />
-  <AppLayout />
+  <AppLayout>
+    <router-view />
+  </AppLayout>
 </template>
 
 <script>
