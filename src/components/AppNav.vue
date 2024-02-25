@@ -1,7 +1,13 @@
 <template>
   <div class="nav-bar">
-    <v-app-bar
-      ><v-app-bar-nav-icon @click="openDrawer"></v-app-bar-nav-icon
+    <v-app-bar color="blue">
+      <v-container fluid
+        ><v-row>
+          <v-col cols="3"
+            ><img src="@/assets/images/logo.png" alt=""
+          /></v-col> </v-row
+      ></v-container>
+      <v-app-bar-nav-icon @click="openDrawer"></v-app-bar-nav-icon
     ></v-app-bar>
   </div>
 </template>
