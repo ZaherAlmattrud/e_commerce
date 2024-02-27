@@ -1,6 +1,6 @@
 <template>
   <div class="drawer">
-    <v-navigation-drawer location="right" v-model="drawer">
+    <v-navigation-drawer location="right" temporary v-model="drawer">
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
         ducimus, ab cumque totam quas ipsam tempore alias quasi! Facere quam
@@ -22,3 +22,6 @@ export default {
   },
 };
 </script>
+<style scoped>
+
+</style>
